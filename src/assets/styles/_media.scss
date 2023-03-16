@@ -1,0 +1,13 @@
+@mixin media-mobile {
+    margin: 0 auto;
+    padding-left: 24px;
+    padding-right: 24px;
+}
+
+
+
+@mixin media-desktop {
+    @media (min-width: 5000px) {
+        @content;
+    }
+}
